@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Het Patel Portfolio</title>
+  <meta name="description" content="Portfolio of Het Patel, IT student and web developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+Gujarati:wght@500;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="bar">
+    <a class="mark" href="#top">Het Patel<span>.</span></a>
+    <nav aria-label="Sections">
+      <a class="link" href="#about">About</a>
+      <a class="link" href="#skills">Skills</a>
+      <a class="link" href="#projects">Projects</a>
+      <a class="link" href="#contact">Contact</a>
+      <button class="theme" id="theme" type="button" aria-label="Switch colour theme">Theme</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <div>
+        <p class="eyebrow">Portfolio &middot; 2026</p>
+        <h1>Het<span class="second">Patel</span></h1>
+      </div>
+      <div class="hero-foot">
+        <div>
+          <p class="lede">IT student and web developer who likes turning small ideas into clean, working software.</p>
+          <div class="cta">
+            <a class="btn primary" href="#projects">See my work</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <aside class="now" aria-label="Current status">
+          <h2>Right now</h2>
+          <dl>
+            <dt>Status</dt><dd><span class="dot"></span>Open to internships</dd>
+            <dt>Studying</dt><dd>Information Technology</dd>
+            <dt>Learning</dt><dd>Full-stack web development</dd>
+            <dt>Languages</dt><dd>English, Gujarati, Hindi</dd>
+          </dl>
+        </aside>
+      </div>
+    </div>
+
+    <section id="about" class="about">
+      <p class="label">About</p>
+      <div>
+        <h2 class="title">I build things for the web and keep learning how they work underneath.</h2>
+        <p>I'm Het, an Information Technology student who enjoys the full path from a rough idea to a page someone can use. I care about readable code, layouts that hold up on a phone, and interfaces that explain themselves.</p>
+        <p>Outside coursework I build small projects, read other people's code, and pick up one new tool at a time. I'm looking for internships and team projects where I can contribute and learn from people who ship.</p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <p class="label">Skills</p>
+      <div>
+        <h2 class="title">Tools I work with.</h2>
+        <div class="skills">
+          <div>
+            <h3>Languages</h3>
+            <ul><li>JavaScript</li><li>Python</li><li>Java</li><li>SQL</li></ul>
+          </div>
+          <div>
+            <h3>Web</h3>
+            <ul><li>HTML &amp; CSS</li><li>Responsive design</li><li>React</li><li>Node.js</li></ul>
+          </div>
+          <div>
+            <h3>Workflow</h3>
+            <ul><li>Git &amp; GitHub</li><li>VS Code</li><li>Figma</li><li>Linux command line</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="label">Projects</p>
+      <div>
+        <h2 class="title">Selected work.</h2>
+        <ul class="projects">
+          <li class="project">
+            <div>
+              <h3><a href="https://github.com/" target="_blank" rel="noopener">Campus Notes Hub</a></h3>
+              <p>A shared notes site where classmates upload, search and tag lecture material by subject and semester.</p>
+              <div class="meta"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MySQL</span></div>
+            </div>
+            <span class="year">2026</span>
+          </li>
+          <li class="project">
+            <div>
+              <h3><a href="https://github.com/" target="_blank" rel="noopener">Expense Splitter</a></h3>
+              <p>Tracks who paid what on a group trip and works out the fewest transfers needed to settle up.</p>
+              <div class="meta"><span class="tag">JavaScript</span><span class="tag">HTML &amp; CSS</span></div>
+            </div>
+            <span class="year">2026</span>
+          </li>
+          <li class="project">
+            <div>
+              <h3><a href="https://github.com/" target="_blank" rel="noopener">Student Result Analyzer</a></h3>
+              <p>Reads exam marks from a CSV file and produces grade distributions, class averages and a ranked list.</p>
+              <div class="meta"><span class="tag">Python</span><span class="tag">Pandas</span></div>
+            </div>
+            <span class="year">2025</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <p class="label">Education</p>
+      <div>
+        <h2 class="title">Where I'm learning.</h2>
+        <ul class="timeline">
+          <li>
+            <span class="when">2025 &ndash; present</span>
+            <div><strong>Bachelor's in Information Technology</strong><br><span class="what">Programming, databases, networks and web development.</span></div>
+          </li>
+          <li>
+            <span class="when">Self-paced</span>
+            <div><strong>Online courses and side projects</strong><br><span class="what">Web fundamentals, version control and data handling in Python.</span></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="label">Contact</p>
+      <div>
+        <p class="contact-big">Have a project or an internship in mind? Let's talk.</p>
+        <div class="mail-row">
+          <span class="mail" id="mail">your.email@example.com</span>
+          <button class="copy" id="copy" type="button">Copy</button>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>&copy; <span id="yr">2026</span> Het Patel</span>
+    <a href="#top">Back to top &uarr;</a>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
